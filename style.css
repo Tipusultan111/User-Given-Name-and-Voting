@@ -1,0 +1,43 @@
+/* ----------- User given names --------------------- */
+.user-name-wrapper {
+  max-width: 900px;
+  margin: 30px auto;
+  font-family: Arial, sans-serif;
+}
+.user-name-wrapper table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+.user-name-wrapper th, .user-name-wrapper td {
+  border: 1px solid #ccc;
+  padding: 8px;
+  text-align: center;
+}
+.user-name-wrapper th {
+  background: #f2f2f2;
+}
+#name-submit-form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+#name-submit-form input, #name-submit-form button {
+  padding: 10px;
+  font-size: 16px;
+}
+#name-submit-form button {
+  background: #0073aa;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+#name-submit-form button:hover {
+  background: #005177;
+}
+.vote-btn {
+  background: transparent;
+  font-size: 18px;
+  border: none;
+  cursor: pointer;
+}
